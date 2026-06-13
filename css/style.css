@@ -1096,6 +1096,24 @@ height:202px; */
         width: 300px;
 
     }
+    .counter-icon span h3 {
+    color: white;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 25px;
+
+}
+
+.counter-icon span i {
+
+    margin-left: 130px;
+    margin-top: 10px;
+    color: #00e5ff;
+    font-size: 35px;
+
+}
+
+
 
     #Contact .footer-top .col p {
 
@@ -1107,7 +1125,7 @@ height:202px; */
     #Contact .footer-top .col i {
         position: relative;
         top: 30px;
-        left: 0px;
+        left: 20px;
         max-width: 50px;
     }
 
