@@ -664,6 +664,64 @@ height:202px; */
 /* ---------------------------------------------------------------- */
 /* responsive */
 
+@media (max-width:1500px) {
+
+#Contact .footer-top .col textarea{
+     width: 100%;
+    max-width: 620px;
+}
+}
+
+@media (max-width:1400px) {
+    .Services-section {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Services-section .cards {
+
+        padding: 20px;
+        height: 410px;
+        width: 300px;
+    }
+
+    .Services-section .cards h2 {
+
+        margin-bottom: 15px;
+
+    }
+
+    .Services-section .cards .btn-secoundry {
+        margin-top: 20px;
+        width: 260px;
+        height: 30px;
+    }
+
+    #Portfolio {
+        height: auto;
+    }
+ 
+
+
+#Contact .footer-top .col p {
+
+    color: white;
+    width: 280px;
+    margin-bottom: 40px;
+
+}
+#Contact .footer-top .col textarea{
+     width: 100%;
+    max-width: 620px;
+}
+
+
+}
+
+
 @media (max-width:768px) {
 
     .logo {
@@ -817,7 +875,7 @@ height:202px; */
     #Contact .footer-top .col p {
         margin: auto;
         width: 500px;
-        text-align:center;
+        text-align: center;
     }
 
 
@@ -1096,22 +1154,23 @@ height:202px; */
         width: 300px;
 
     }
+
     .counter-icon span h3 {
-    color: white;
-    margin-left: 80px;
-    margin-top: 50px;
-    font-size: 25px;
+        color: white;
+        margin-left: 80px;
+        margin-top: 50px;
+        font-size: 25px;
 
-}
+    }
 
-.counter-icon span i {
+    .counter-icon span i {
 
-    margin-left: 130px;
-    margin-top: 10px;
-    color: #00e5ff;
-    font-size: 35px;
+        margin-left: 130px;
+        margin-top: 10px;
+        color: #00e5ff;
+        font-size: 35px;
 
-}
+    }
 
 
 
@@ -1133,8 +1192,10 @@ height:202px; */
     #Contact .footer-top .col input,
     #Contact .footer-top .col textarea {
 
-        width: 300px;
-        max-width: 100%;
+        /* width: 300px;
+        max-width: 100%; */
+        width: 100%;
+        max-width: 300px;
     }
 
 
